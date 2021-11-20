@@ -1,0 +1,33 @@
+{
+  "name": "typedoc-plugin-leaflet-docs",
+  "version": "1.0.0",
+  "description": "Adds support for linking to leaflet docs for global types to TypeDoc",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtisy1/typedoc-plugin-leaflet-docs.git"
+  },
+  "author": "curtisy1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curtisy1/typedoc-plugin-leaflet-docs/issues"
+  },
+  "homepage": "https://github.com/curtisy1/typedoc-plugin-leaflet-docs#readme",
+  "devDependencies": {
+    "typedoc": "^0.22.9",
+    "typescript": "^4.4.2"
+  },
+  "keywords": [
+    "typedocplugin"
+  ],
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "typedoc": "0.22.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+}
